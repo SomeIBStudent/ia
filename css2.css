@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+}
+
+#background {
+    background-image: url("pictures/theme-1-background.jpg");
+    height:200px;
+	position: relative;
+	display: block;
+}
+
+#background-wrapper {
+    background-color:rgb(176,0,0);
+    background-color:rgba(176,0,0,.7);
+    height: inherit;
+}
+#title {
+	height: inherit;
+	display: table;
+}
+#title div {
+	vertical-align: middle; 
+	display: table-cell;
+	padding-left: 50px;
+}
+#MenuPicture {
+	width: 250px;
+	height: 150px;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 50px;
+	margin: auto 0;
+}
+#MenuPicture img {
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+}
+#MenuBar {
+	width: 80%;
+	margin: 0 auto;
+}
+#MenuBar div {
+	width: 16.666%;
+	display: inline-block;
+	text-align: center;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+#Content {
+	height: 700px;
+	font-size: 0;
+}
+#SocialMedia {
+	display: inline-block;
+	width: 3%;
+	height: inherit;
+	vertical-align: top;
+}
+#SocialMedia img {
+	height: 50px;
+	width: 50px;
+	margin: 15px 0;
+	margin-left: -5px;
+}
+#Info {
+	display: inline-block;
+	height: inherit;
+	width: 60%;
+	vertical-align: top;
+	font-size: initial;
+	height: inherit;
+}
+#InfoHolder {
+	margin: 15% 10%;
+}
+
+#BottomPicture {
+	display: inline-block;
+	vertical-align: top;
+	width: 37%;
+	position: relative;
+	height: inherit;
+}
+#PictureHolder {
+	background-color: #000;
+	height: 400px;
+	width: 550px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+#PictureHolder img {
+	width: 550px;
+	height: 400px;
+}
+#foot {
+	background: linear-gradient(to bottom right, #ffffff 0%, #808080 100%);
+	height: 45px;
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+#foot p {
+	display: table-cell;
+	vertical-align: middle;
+}
