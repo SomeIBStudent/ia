@@ -48,11 +48,13 @@ body{
 	margin: 0 auto;
 }
 #MenuBar div {
-	width: 16.666%;
+	width: 14.2857%;
 	display: inline-block;
 	text-align: center;
 }
-
+#MenuIcon {
+	display: none;
+}
 a {
 	font-size: 20px;
 	text-decoration: none;
@@ -66,7 +68,6 @@ a {
 	display: inline-block;
 	width: 3%;
 	height: inherit;
-	vertical-align: top;
 }
 #SocialMedia img {
 	height: 50px;
@@ -96,15 +97,15 @@ a {
 #PictureHolder {
 	background-color: #000;
 	height: 400px;
-	width: 550px;
+	width: 90%;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
 }
 #PictureHolder img {
-	width: 550px;
-	height: 400px;
+	width: 100%;
+	height: 100%;
 }
 #foot {
 	background: linear-gradient(to bottom right, #ffffff 0%, #808080 100%);
@@ -116,4 +117,91 @@ a {
 #foot p {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+@media only screen and (max-width: 500px) {
+	#background {
+		height: initial;
+	}
+	#title div img {
+		width: 80%;
+		height: auto;
+	}
+	#title div {
+		padding-left: 0;
+		text-align: center;
+	}
+	#MenuPicture, #MenuBar{
+		display: none;
+	}
+	#MenuIcon {
+		display: block;
+		text-align: center;
+	}
+	#MenuIcon img {
+		width: 3%;
+		height: auto;
+	}
+	#Content {
+		height: initial;
+		display: flex;
+		flex-direction: column;
+	}
+	#BottomPicture {
+		display: block;
+		order: 1;
+		width: initial;
+		height: initial;
+	}
+	#PictureHolder {
+		position: static;
+		width: 85%;
+		height: auto;
+		margin: 20px auto;
+		text-align: center;
+	}
+	#PictureHolder img {
+		width: 100%;
+		height: 100%;
+	}
+	#Info {
+		display: block;
+		order: 2;
+		margin: 0 auto;
+		width: 90%;
+	}
+	#InfoHolder {
+		text-align: center;
+		margin: 0 10%;
+	}
+	#SocialMedia {
+		display: block;
+		order: 3;
+		width: initial;
+		height: 80px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	#SocialMedia div {
+		width: initial;
+		margin: 0 !important;
+	}
+	#SocialMedia div img {
+		margin: 0 10%;
+		width: 8%;
+		height: auto;
+	}
+	#foot {
+		height: 35px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
