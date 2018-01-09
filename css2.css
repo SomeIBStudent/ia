@@ -3,6 +3,7 @@
 
 body, html {
     margin: 0;
+	position: relative;
 }
 
 #background {
@@ -108,8 +109,9 @@ a {
 	height: 100%;
 }
 footer {
-position: absolute;
-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 #foot {
 	background: linear-gradient(to bottom right, #ffffff 0%, #808080 100%);
