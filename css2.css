@@ -1,9 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-
-body, html {
+html {
+	height: 100%;
+}
+body {
     margin: 0;
 	position: relative;
+	min-height: 100%;
 }
 
 #background {
@@ -62,7 +65,7 @@ a {
 	color: black;
 }
 #Content {
-	height: 700px;
+	height: 730px;
 	font-size: 0;
 }
 #SocialMedia {
@@ -75,6 +78,10 @@ a {
 	width: 50px;
 	margin: 15px 0;
 	margin-left: -5px;
+}
+#twitter, #instagram {
+	height: 58px !important;
+	width: 58px !important;	
 }
 #Info {
 	display: inline-block;
@@ -198,9 +205,13 @@ footer {
 		height: auto;
 	}
 	#foot {
-		height: 35px;
+		height: 30px;
+		font-size: 12px;
 	}
-	
+	#twitter, #instagram{
+		width: 9% !important;
+		height: auto !important;
+	}
 	
 	
 	
