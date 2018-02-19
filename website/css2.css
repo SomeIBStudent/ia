@@ -10,7 +10,7 @@ body {
 }
 
 #background {
-    background-image: url("pictures/theme-1-background.jpg");
+    background-image: url("../pictures/theme-1-background.jpg");
     height:200px;
 	position: relative;
 	display: block;
